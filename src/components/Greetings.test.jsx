@@ -12,7 +12,7 @@ describe('Greetings Component', () => {
 
   it('displays fallback', () => {
     render(<Greetings />);
-    expect(screen.getByText('Hello Guests')).toBeTruthy();
+    expect(screen.getByText('Hello Guest')).toBeTruthy();
   });
 });
 // ...existing code...
